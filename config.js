@@ -6,14 +6,14 @@ module.exports = {
   app: {
     px: "+",
     token: process.env.TOKEN,
-    playing: "by Filipe",
+    playing: "by Samir",
   },
 
   opt: {
     DJ: {
       enabled: false,
       roleName: "DJ",
-      commands: ["volume", "olhaeleae"],
+      commands: ["volume", "citycom"],
     },
     maxVol: 100,
     loopMessage: false,
