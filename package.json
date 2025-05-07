@@ -1,24 +1,16 @@
 {
-  "name": "bot-discord-olhaeleae",
-  "main": "main.js",
-  "author": "filiperochs",
+  "name": "bot-discord",
   "version": "1.0.0",
-  "repository": "https://github.com/filiperochs/bot-discord.git",
-  "description": "Discord Bot Olha ele ae",
+  "main": "main.js",
+  "type": "module",
   "scripts": {
-    "start": "nodemon main.js"
+    "start": "node main.js"
   },
   "dependencies": {
-    "@discordjs/opus": "^0.5.3",
-    "@discordjs/voice": "^0.18.0",
-    "discord-player": "^5.2.2",
-    "discord.js": "^13.6.0",
-    "dotenv": "^16.0.0",
-    "ffmpeg-static": "^4.4.1",
-    "ms": "^3.0.0-canary.1",
-    "opusscript": "^0.0.8"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.15"
+    "discord.js": "^14.11.0",
+    "discord-player": "^6.7.0",
+    "@discordjs/voice": "^0.14.0",
+    "ffmpeg-static": "^5.1.0",
+    "dotenv": "^16.3.1"
   }
 }
